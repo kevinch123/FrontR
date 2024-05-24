@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const pedidoApi = axios.create({
-    baseURL: 'http://localhost:8000/pedidos/api/v1/pedidos/'
+    baseURL: 'https://backreact.azurewebsites.net/pedidos/api/v1/pedidos/'
 });
 
 export const getAllTasks = () => {
