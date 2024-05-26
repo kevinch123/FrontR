@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const pedidoApi = axios.create({
-    baseURL: 'embutidosr.azurewebsites.net/pedidos/api/v1/pedidos/'
+    baseURL: 'https://embutidosr.azurewebsites.net/pedidos/api/v1/pedidos/'
 });
 
 export const getAllTasks = () => {
